@@ -1,6 +1,6 @@
-package com.czy.dubbo.provider.impl;
+package com.czy.dubbo.hello.provider.impl;
 
-import com.czy.dubbo.provider.HelloService;
+import com.czy.dubbo.hello.provider.HelloService;
 
 
 /**

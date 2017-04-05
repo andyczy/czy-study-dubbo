@@ -13,6 +13,8 @@
     </welcome-file-list>
 
 
+    <!--注意配置文件、包名对应的配置文件。如果怕乱的话用test测试就ok了！-->
+
     <!--log4j日志配置-->
     <context-param>
         <param-name>log4jConfigLocation</param-name>
@@ -31,7 +33,7 @@
     <!-- Spring和mybatis的配置文件 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath*:applicationProvider.xml</param-value>
+        <param-value>classpath*:hello-Provider.xml</param-value>
     </context-param>
     <!-- Spring监听器 -->
     <listener>

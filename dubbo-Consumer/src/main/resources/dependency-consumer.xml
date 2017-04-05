@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        ">
+
+	<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+	<dubbo:application name="dependency-consumer" />
+
+	<dubbo:registry address="zookeeper://192.168.100.11:2181?backup=192.168.100.12:2181,192.168.100.13:2181" />
+
+	<!-- 生成远程服务代理，可以像使用本地bean一样使用demoService
+	检查级联依赖关系 默认为true 当有依赖服务的时候，需要根据需求进行设置 -->
+	<dubbo:reference version="1.0.0"  id="dependencyService"
+		interface="com.czy.dubbo.dependency.provider.DependencyService" />
+
+</beans>

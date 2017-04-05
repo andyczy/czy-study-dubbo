@@ -1,4 +1,4 @@
-package com.czy.dubbo.provider;
+package com.czy.dubbo.hello.provider;
 
 
 

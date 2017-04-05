@@ -1,6 +1,6 @@
-package com.czy.dubbo.consumer;
+package com.czy.dubbo.hello.consumer;
 
-import com.czy.dubbo.provider.HelloService;
+import com.czy.dubbo.hello.provider.HelloService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
@@ -13,10 +13,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @URL地址
  * @进度描述
  */
-public class ConsumerTest {
+public class HelloConsumerTest {
 
     public static void main(String[] args) throws Exception {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"applicationConsumer.xml"});
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"hello-Consumer.xml"});
         context.start();
 
         // 获取远程服务代理

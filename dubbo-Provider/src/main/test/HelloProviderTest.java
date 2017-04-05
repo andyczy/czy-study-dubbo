@@ -10,10 +10,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @URL地址
  * @进度描述
  */
-public class DubboProviderTest {
+public class HelloProviderTest {
 
     public static void main(String[] args) throws Exception {  
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"applicationProvider.xml"});
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"hello-Provider.xml"});
 
         // 按任意键退出
         context.start();
