@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78246ee-9ea5-4207-9122-d6c242b58ed4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/direct/consumer/DirectConsumerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-Provider/src/main/java/com/czy/dubbo/direct/provider/DirectService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-Provider/src/main/java/com/czy/dubbo/direct/provider/impl/DirectServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbo-Provider/src/main/test/DirectProviderTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Consumer/src/main/resources/direct-consumer.xml" afterPath="$PROJECT_DIR$/dubbo-Consumer/src/main/resources/direct-consumer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Provider/src/main/resources/direct-provider.xml" afterPath="$PROJECT_DIR$/dubbo-Provider/src/main/resources/direct-provider.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/{error.file}" afterPath="$PROJECT_DIR$/{error.file}" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="dubbo-first.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,12 +81,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="direct-consumer.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="direct-consumer.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/resources/direct-consumer.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="14" column="16" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="410">
+                <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -131,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dubbo-Consumer/src/main/java/consumer/ConsumerThd.java" />
         <option value="$PROJECT_DIR$/dubbo-Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" />
         <option value="$PROJECT_DIR$/dubbo-Provider/src/main/java/provider/IProcessData.java" />
@@ -182,6 +199,7 @@
         <option value="$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/direct/consumer/DirectConsumerTest.java" />
         <option value="$PROJECT_DIR$/dubbo-Consumer/src/main/resources/direct-consumer.xml" />
         <option value="$PROJECT_DIR$/dubbo-Provider/src/main/resources/direct-provider.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1238,7 +1256,7 @@
       <workItem from="1490522768735" duration="4449000" />
       <workItem from="1490528112791" duration="2130000" />
       <workItem from="1491371416329" duration="297000" />
-      <workItem from="1491388585962" duration="6128000" />
+      <workItem from="1491388585962" duration="6402000" />
     </task>
     <task id="LOCAL-00001" summary="更新集群">
       <created>1491371569091</created>
@@ -1254,11 +1272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491393125862</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="直连提供者配置！">
+      <created>1491394753551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1491394753551</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17511000" />
+    <option name="totallyTimeSpent" value="17785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1346,7 +1371,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新集群" />
     <MESSAGE value="dubbo两层依赖！" />
-    <option name="LAST_COMMIT_MESSAGE" value="dubbo两层依赖！" />
+    <MESSAGE value="直连提供者配置！" />
+    <option name="LAST_COMMIT_MESSAGE" value="直连提供者配置！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1540,26 +1566,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-Config/src/main/resources/dubbo.properties" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czydubbo/dependency/consumer/DependencyService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1741,6 +1747,28 @@
         <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="410">
+            <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
