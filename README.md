@@ -19,6 +19,6 @@ C. 服务自动注册与发现 ：不再需要写死服务提供方地址，注�
 
 
 包名：
-    1、hello：入门程序
-    2、dependency：两层依赖
-    3、direct：直连提供者配置
+    1、hello：入门程序    
+    2、dependency：两层依赖    
+    3、direct：直连提供者配置    

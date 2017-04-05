@@ -12,6 +12,8 @@
         <module>dubbo-Provider</module>
         <module>dubbo-Consumer</module>
         <module>dubbo-Config</module>
+        <module>dubbox-Consumer</module>
+        <module>dubbox-Provider</module>
     </modules>
 
 

@@ -25,6 +25,8 @@
         <module name="dubbo-Config" />
         <module name="dubbo-Consumer" />
         <module name="dubbo-Provider" />
+        <module name="dubbox-Consumer" />
+        <module name="dubbox-Provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +34,8 @@
       <module name="dubbo-Consumer" target="1.8" />
       <module name="dubbo-first" target="1.5" />
       <module name="dubbo-Provider" target="1.8" />
+      <module name="dubbox-Consumer" target="1.5" />
+      <module name="dubbox-Provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
