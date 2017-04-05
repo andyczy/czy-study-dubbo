@@ -30,12 +30,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dubbo-Config" target="1.5" />
+      <module name="dubbo-Config" target="1.8" />
       <module name="dubbo-Consumer" target="1.8" />
-      <module name="dubbo-first" target="1.5" />
+      <module name="dubbo-first" target="1.8" />
       <module name="dubbo-Provider" target="1.8" />
-      <module name="dubbox-Consumer" target="1.5" />
-      <module name="dubbox-Provider" target="1.5" />
+      <module name="dubbox-Consumer" target="1.8" />
+      <module name="dubbox-Provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

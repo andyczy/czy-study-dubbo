@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+	
+	<!-- 引入zc-com通用类属性注入配置文件 -->
+	<util:properties id="zcparams" location="classpath:params.properties"></util:properties>
+
+    <dubbo:application name="consumer" owner="programmer" organization="dubbox"/>
+    
+    <dubbo:registry address="zookeeper://192.168.1.121:2181?backup=192.168.1.122:2181,192.168.1.123:2181"/>
+    <!-- kryo实现序列化  -->
+    <dubbo:protocol name="dubbo" serialization="kryo" optimizer="bhz.utils.SerializationOptimizerImpl" />
+    
+    <!-- 生成远程服务代理，可以像使用本地bean -->
+	<dubbo:reference interface="bhz.service.UserService" id="userService" check="false" />
+    <!-- 生成远程服务代理，可以像使用本地bean -->
+	<dubbo:reference interface="bhz.service.SimpleService" id="simpleService" />
+	
+</beans>

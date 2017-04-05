@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/dubbo-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbox-Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbox-Provider/pom.xml" />
       </list>
     </option>
   </component>
