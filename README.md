@@ -1,5 +1,5 @@
 # dubbo-first
-dubbo入门案例
+学习 dubbo
 
 [博文跟踪-czydub](http://blog.csdn.net/javawebrookie/article/details/66478685 "悬停显示")
 
