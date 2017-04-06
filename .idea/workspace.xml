@@ -2,62 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78246ee-9ea5-4207-9122-d6c242b58ed4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0_pr2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1_m05.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_3_4_O.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Consumer/src/main/resources/dubbo-consumer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Consumer/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Consumer/src/main/resources/params.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/entity/Simple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/http/HttpCaller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/http/HttpCallerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/http/HttpCallerUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/SimpleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/impl/SimpleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/FastJsonConvert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/HttpProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/HttpProxyConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/SerializationOptimizerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/SerializationUitls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/resources/dubbo-provider.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dubbox-Provider/src/main/resources/params.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_adyliu_zkclient_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/FastInfoset-1.2.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/activation-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/bsf-api-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cache-api-0.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/commons-codec-1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/commons-io-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/commons-lang-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/commons-pool-1.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/curator-client-2.5.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/curator-framework-2.5.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cxf-api-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cxf-rt-bindings-soap-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cxf-rt-core-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cxf-rt-databinding-jaxb-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cxf-rt-frontend-simple-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/cxf-rt-transports-http-2.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dubbo-2.8.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/dubbo-demo-api-2.8.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/fastjson-1.1.39.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/fst-1.55.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/geronimo-javamail_1.4_spec-1.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/gmbal-api-only-3.0.0-b023.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/grizzly-core-2.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/grizzly-framework-2.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/grizzly-portunif-2.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/grizzly-rcm-2.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/guava-16.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/hessian-4.0.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/hibernate-validator-4.2.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/httpclient-4.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/httpclient-cache-4.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/httpcore-4.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/httpmime-4.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/istack-commons-runtime-2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jackson-core-asl-1.9.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jackson-jaxrs-1.9.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jackson-mapper-asl-1.9.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jackson-xc-1.9.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/javassist-3.15.0-GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/javax.annotation-api-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/javax.servlet-api-3.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/javax.ws.rs-api-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jaxb-api-2.2.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jaxb-core-2.2.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jaxb-impl-2.2.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jaxrs-api-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jboss-annotations-api_1.1_spec-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jcip-annotations-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jedis-2.1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jetty-6.1.26.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jetty-util-6.1.26.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jline-0.9.94.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/jsr173_api-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/kryo-2.24.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/kryo-serializers-0.26.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/libthrift-0.8.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/log4j-1.2.16.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/management-api-3.0.0-b012.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/mina-core-1.1.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/minlog-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/netty-3.7.0.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/objenesis-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/orgjson.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resteasy-client-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resteasy-jackson-provider-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resteasy-jaxb-provider-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resteasy-jaxrs-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resteasy-jdk-http-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/resteasy-netty-3.0.7.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/slf4j-api-1.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/slf4j-log4j12-1.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring-aop-3.2.9.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring-beans-3.2.9.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring-context-3.2.9.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring-core-3.2.9.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring-expression-3.2.9.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/spring-web-3.2.9.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/stax2-api-3.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/tomcat-embed-core-8.0.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/tomcat-embed-logging-juli-8.0.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/validation-api-1.0.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/woodstox-core-asl-4.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/wsdl4j-1.6.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/xmemcached-1.3.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/xmlpull-1.1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/xmlschema-core-2.0.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/xpp3_min-1.1.4c.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/xstream-1.4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/zkclient-0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/zookeeper-3.4.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bin.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0_pr2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jdmk_jmxtools_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jmx_jmxri_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1_m05.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6_SEC03.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_3_4_O.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dubbo_Provider_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dubbo_Provider_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Config/dubbo-Config.iml" afterPath="$PROJECT_DIR$/dubbo-Config/dubbo-Config.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" afterPath="$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Consumer/pom.xml" afterPath="$PROJECT_DIR$/dubbo-Consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Consumer/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/dubbo-Consumer/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" afterPath="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Provider/pom.xml" afterPath="$PROJECT_DIR$/dubbo-Provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Provider/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/dubbo-Provider/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-first.iml" afterPath="$PROJECT_DIR$/dubbo-first.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbox-Consumer/dubbox-Consumer.iml" afterPath="$PROJECT_DIR$/dubbox-Consumer/dubbox-Consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbox-Consumer/pom.xml" afterPath="$PROJECT_DIR$/dubbox-Consumer/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbox-Provider/dubbox-Provider.iml" afterPath="$PROJECT_DIR$/dubbox-Provider/dubbox-Provider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbox-Provider/pom.xml" afterPath="$PROJECT_DIR$/dubbox-Provider/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
     </list>
     <ignored path="dubbo-first.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,32 +180,7 @@
     <favorites_list name="dubbo-first" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="402">
-                <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -179,12 +250,12 @@
         <option value="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/dubbox-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbox-Consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/SerializationOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/UserService.java" />
         <option value="$PROJECT_DIR$/dubbo-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-Consumer/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -266,21 +337,24 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbox-Provider/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43448275" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ImportantData\IdeaJava\dubbo-first" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -290,11 +364,11 @@
       <recent name="consumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbox-Provider\src\main" />
+      <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbox-Consumer\src\main\bin" />
       <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbox-Provider\src\main\java\com\czy\dubbox" />
       <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbox-Provider\src\main\resources" />
       <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbox-Consumer\src\main\resources" />
-      <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbo-Consumer\src\main\java\com\czy\dubbo\direct\consumer" />
-      <recent name="E:\ImportantData\IdeaJava\dubbo-first\dubbo-Provider\src\main\test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DirectConsumerTest">
@@ -875,7 +949,8 @@
       <workItem from="1490522768735" duration="4449000" />
       <workItem from="1490528112791" duration="2130000" />
       <workItem from="1491371416329" duration="297000" />
-      <workItem from="1491388585962" duration="10597000" />
+      <workItem from="1491388585962" duration="11251000" />
+      <workItem from="1491460397509" duration="1060000" />
     </task>
     <task id="LOCAL-00001" summary="更新集群">
       <created>1491371569091</created>
@@ -912,11 +987,25 @@
       <option name="project" value="LOCAL" />
       <updated>1491396024330</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dubbox">
+      <created>1491399285798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491399285798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dubbox">
+      <created>1491461403448</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491461403448</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21980000" />
+    <option name="totallyTimeSpent" value="23694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -926,35 +1015,35 @@
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25510976" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40589198" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25738078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1011,7 +1100,8 @@
     <MESSAGE value="更新集群" />
     <MESSAGE value="dubbo两层依赖！" />
     <MESSAGE value="直连提供者配置！" />
-    <option name="LAST_COMMIT_MESSAGE" value="直连提供者配置！" />
+    <MESSAGE value="dubbox" />
+    <option name="LAST_COMMIT_MESSAGE" value="dubbox" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1022,35 +1112,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/dependency/consumer/s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/dependency/consumer/s.java" />
     <entry file="file://$PROJECT_DIR$/dubbo-Provider/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/dependency/consumer/DependencyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/dependency/consumer/DependencyService.java" />
     <entry file="file://$PROJECT_DIR$/dubbo-Provider/src/main/java/com/czy/dubbo/hello/provider/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,9 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1068,9 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,7 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,9 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,23 +1167,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/direct/consumer/DirectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-Consumer/src/main/java/com/czy/dubbo/direct/consumer/DirectService.java" />
     <entry file="file://$PROJECT_DIR$/dubbo-Provider/src/main/test/HelloProviderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="25" selection-start-line="17" selection-start-column="6" selection-end-line="22" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,9 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1226,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,7 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1402,12 +1439,13 @@
               <point x="-28.0" y="7.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9359190556492412" x="419.0" y="286.5" />
+          <settings layout="Hierarchic Group" zoom="0.9359190556492412" x="419.0" y="287.0" />
           <SelectedNodes>
             <node>com.101tec:zkclient:jar:0.4/log4j:log4j:jar:1.2.14</node>
             <node>com.czy.dubbo:dubbo-Provider:1.0-SNAPSHOT</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -1435,6 +1473,10 @@
           </nodes>
           <notes />
           <edges>
+            <edge source="com.alibaba:dubbo:jar:2.5.3" target="org.javassist:javassist:jar:3.15.0-GA">
+              <point x="35.5" y="-10.0" />
+              <point x="-40.0" y="7.5" />
+            </edge>
             <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final">
               <point x="35.5" y="-0.0" />
               <point x="-30.0" y="-0.0" />
@@ -1444,14 +1486,34 @@
               <point x="221.0" y="284.74074074074076" />
               <point x="-40.0" y="-7.5" />
             </edge>
+            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.6.1">
+              <point x="70.5" y="-1.5" />
+              <point x="221.0" y="248.74074074074073" />
+              <point x="-51.5" y="7.5" />
+            </edge>
             <edge source="org.springframework:spring:jar:2.5.6.SEC03" target="commons-logging:commons-logging:jar:1.1.1">
               <point x="34.5" y="-0.0" />
               <point x="-69.5" y="-7.5" />
+            </edge>
+            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="commons-logging:commons-logging:jar:1.1.1">
+              <point x="70.5" y="13.5" />
+              <point x="221.0" y="457.74074074074076" />
+              <point x="499.0" y="457.74074074074076" />
+              <point x="-69.5" y="7.5" />
             </edge>
             <edge source="com.101tec:zkclient:jar:0.4/org.apache.zookeeper:zookeeper:jar:3.3.1" target="org.apache.zookeeper:zookeeper:pom:3.4.5/jline:jline:jar:0.9.94">
               <point x="47.5" y="7.5" />
               <point x="579.0" y="134.89814814814815" />
               <point x="-27.5" y="-7.5" />
+            </edge>
+            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="com.101tec:zkclient:jar:0.4">
+              <point x="70.5" y="-10.5" />
+              <point x="-37.5" y="-0.0" />
+            </edge>
+            <edge source="org.apache.zookeeper:zookeeper:pom:3.4.5/jline:jline:jar:0.9.94" target="junit:junit:jar:3.8.1">
+              <point x="27.5" y="-0.0" />
+              <point x="718.0" y="142.39814814814815" />
+              <point x="-28.0" y="-7.5" />
             </edge>
             <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="junit:junit:jar:3.8.1">
               <point x="70.5" y="1.5" />
@@ -1464,6 +1526,14 @@
               <point x="396.0" y="424.74074074074076" />
               <point x="-34.5" y="-7.5" />
             </edge>
+            <edge source="com.101tec:zkclient:jar:0.4" target="com.101tec:zkclient:jar:0.4/org.apache.zookeeper:zookeeper:jar:3.3.1">
+              <point x="37.5" y="7.5" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.3">
+              <point x="70.5" y="7.5" />
+              <point x="-35.5" y="-0.0" />
+            </edge>
             <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.7.5">
               <point x="70.5" y="-4.5" />
               <point x="-39.0" y="-0.0" />
@@ -1472,44 +1542,6 @@
               <point x="70.5" y="10.5" />
               <point x="221.0" y="439.74074074074076" />
               <point x="-34.5" y="7.5" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:pom:3.4.5" target="org.apache.zookeeper:zookeeper:pom:3.4.5/jline:jline:jar:0.9.94">
-              <point x="47.5" y="-0.0" />
-              <point x="499.0" y="154.75925925925924" />
-              <point x="579.0" y="149.89814814814815" />
-              <point x="-27.5" y="7.5" />
-            </edge>
-            <edge source="com.alibaba:dubbo:jar:2.5.3" target="org.javassist:javassist:jar:3.15.0-GA">
-              <point x="35.5" y="-10.0" />
-              <point x="-40.0" y="7.5" />
-            </edge>
-            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.6.1">
-              <point x="70.5" y="-1.5" />
-              <point x="221.0" y="248.74074074074073" />
-              <point x="-51.5" y="7.5" />
-            </edge>
-            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="commons-logging:commons-logging:jar:1.1.1">
-              <point x="70.5" y="13.5" />
-              <point x="221.0" y="457.74074074074076" />
-              <point x="499.0" y="457.74074074074076" />
-              <point x="-69.5" y="7.5" />
-            </edge>
-            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="com.101tec:zkclient:jar:0.4">
-              <point x="70.5" y="-10.5" />
-              <point x="-37.5" y="-0.0" />
-            </edge>
-            <edge source="org.apache.zookeeper:zookeeper:pom:3.4.5/jline:jline:jar:0.9.94" target="junit:junit:jar:3.8.1">
-              <point x="27.5" y="-0.0" />
-              <point x="718.0" y="142.39814814814815" />
-              <point x="-28.0" y="-7.5" />
-            </edge>
-            <edge source="com.101tec:zkclient:jar:0.4" target="com.101tec:zkclient:jar:0.4/org.apache.zookeeper:zookeeper:jar:3.3.1">
-              <point x="37.5" y="7.5" />
-              <point x="-47.5" y="-0.0" />
-            </edge>
-            <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.5.3">
-              <point x="70.5" y="7.5" />
-              <point x="-35.5" y="-0.0" />
             </edge>
             <edge source="com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT" target="org.apache.zookeeper:zookeeper:pom:3.4.5">
               <point x="70.5" y="-7.5" />
@@ -1533,36 +1565,28 @@
               <point x="47.5" y="10.0" />
               <point x="-51.5" y="-7.5" />
             </edge>
+            <edge source="org.apache.zookeeper:zookeeper:pom:3.4.5" target="org.apache.zookeeper:zookeeper:pom:3.4.5/jline:jline:jar:0.9.94">
+              <point x="47.5" y="-0.0" />
+              <point x="499.0" y="154.75925925925924" />
+              <point x="579.0" y="149.89814814814815" />
+              <point x="-27.5" y="7.5" />
+            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.925858123569794" x="533.4134948096886" y="214.72194760257042" />
+          <settings layout="Hierarchic Group" zoom="0.925858123569794" x="533.0" y="215.0" />
           <SelectedNodes>
             <node>com.czy.dubbo:dubbox-Consumer:1.0-SNAPSHOT</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/entity/s.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/entity/s.kt" />
     <entry file="file://$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/entity/Simple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1570,17 +1594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,7 +1601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1596,9 +1608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1606,7 +1615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1614,9 +1622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1624,9 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,9 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1644,9 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2216,12 +2212,13 @@
               <point x="-42.5" y="-7.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.282730514518594" x="2248.5972972972977" y="971.5" />
+          <settings layout="Hierarchic Group" zoom="0.282730514518594" x="2249.0" y="972.0" />
           <SelectedNodes>
             <node>com.czy.dubbo:dubbo-first:1.0-SNAPSHOT</node>
             <node>com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -2230,15 +2227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="217" column="26" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2246,7 +2234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2254,7 +2241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2262,9 +2248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2272,9 +2255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2308,11 +2288,19 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="402">
+          <first_editor relative-caret-position="403">
             <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2383,11 +2371,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.101tec:zkclient:0.4</last-edited>
+          <last-edited>bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43448275" />
               </list>
             </option>
           </splitter-proportions>
