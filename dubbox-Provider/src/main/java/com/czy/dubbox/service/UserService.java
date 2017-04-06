@@ -1,15 +1,14 @@
 package com.czy.dubbox.service;
 
+import com.alibaba.dubbo.rpc.protocol.rest.support.ContentType;
 import com.czy.dubbox.entity.User;
 
 import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-
-import static javax.swing.text.DefaultStyledDocument.ElementSpec.ContentType;
+import java.awt.*;
 
 @Path("/userService")
-@Consumes({MediaType.APPLICATION_JSON, MediaType.TEXT_XML})
-//@Produces({ContentType.APPLICATION_JSON_UTF_8, ContentType.TEXT_XML_UTF_8})
+//@Consumes({PageAttributes.MediaType.APPLICATION_JSON, MediaType.TEXT_XML})
+@Produces({ContentType.APPLICATION_JSON_UTF_8, ContentType.TEXT_XML_UTF_8})
 public interface UserService {
 	@GET
     @Path("/testget")
