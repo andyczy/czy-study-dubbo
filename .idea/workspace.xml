@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e78246ee-9ea5-4207-9122-d6c242b58ed4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" afterPath="$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" afterPath="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbox-Consumer/dubbox-Consumer.iml" afterPath="$PROJECT_DIR$/dubbox-Consumer/dubbox-Consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dubbox-Provider/dubbox-Provider.iml" afterPath="$PROJECT_DIR$/dubbox-Provider/dubbox-Provider.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dubbo-first.iml" afterPath="$PROJECT_DIR$/czy-study-dubbo.iml" />
     </list>
     <ignored path="dubbo-first.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +31,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -121,10 +126,10 @@
         <option value="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/utils/SerializationOptimizerImpl.java" />
         <option value="$PROJECT_DIR$/dubbo-Provider/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-Consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbox-Provider/src/main/java/com/czy/dubbox/service/UserService.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -889,7 +894,7 @@
       <workItem from="1491462959362" duration="634000" />
       <workItem from="1491467255335" duration="18000" />
       <workItem from="1494069993452" duration="57000" />
-      <workItem from="1494070076854" duration="47000" />
+      <workItem from="1494070076854" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="更新集群">
       <created>1491371569091</created>
@@ -954,11 +959,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491463074255</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新">
+      <created>1494070135021</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1494070135021</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25488000" />
+    <option name="totallyTimeSpent" value="25545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1062,7 +1074,8 @@
     <MESSAGE value="直连提供者配置！" />
     <MESSAGE value="dubbox" />
     <MESSAGE value="更新架包" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新架包" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2246,21 +2259,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
