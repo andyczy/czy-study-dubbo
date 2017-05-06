@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/czy-study-dubbo.iml" filepath="$PROJECT_DIR$/czy-study-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-Config/dubbo-Config.iml" filepath="$PROJECT_DIR$/dubbo-Config/dubbo-Config.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" filepath="$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" filepath="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dubbo-first.iml" filepath="$PROJECT_DIR$/dubbo-first.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbox-Consumer/dubbox-Consumer.iml" filepath="$PROJECT_DIR$/dubbox-Consumer/dubbox-Consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbox-Provider/dubbox-Provider.iml" filepath="$PROJECT_DIR$/dubbox-Provider/dubbox-Provider.iml" />
     </modules>
