@@ -18,29 +18,29 @@
 
     <dubbo:annotation package="bhz.service" />
     
-    <!-- kryo实现序列化  serialization="kryo" optimizer="bhz.utils.SerializationOptimizerImpl"-->
-    <dubbo:protocol name="dubbo"  serialization="kryo" optimizer="bhz.utils.SerializationOptimizerImpl" />
+    <!-- kryo实现序列化  serialization="kryo" optimizer="com.czy.dubbox.utils.SerializationOptimizerImpl"-->
+    <dubbo:protocol name="dubbo"  serialization="kryo" optimizer="com.czy.dubbox.utils.SerializationOptimizerImpl" />
 
     <!-- rest -->
     <dubbo:protocol name="rest" server="tomcat" port="8888" contextpath="provider" accepts="500" />
 
 	<!-- 
-    <dubbo:service interface="bhz.service.SimpleService" ref="simpleService" protocol="dubbo" />
+    <dubbo:service interface="com.czy.dubbox.service.SimpleService" ref="simpleService" protocol="dubbo" />
     -->
     
     
     <!-- 声明需要暴露的服务接口 -->
     <!-- 同时提供本地dubbo方法调用和rest方法调用 --> 
     <!--
-	<dubbo:service interface="bhz.service.UserService" ref="userService" protocol="rest,dubbo" />
+	<dubbo:service interface="com.czy.dubbox.service.UserService" ref="userService" protocol="rest,dubbo" />
 	--> 
 	
 	
 	
 	<!-- spring 本地bean配置 一样实现服务 -->
  	<!--  
-	<bean id="userService" class="bhz.service.impl.UserServiceImpl" />
-	<bean id="simpleService" class="bhz.service.impl.SimpleServiceImpl" />
+	<bean id="userService" class="com.czy.dubbox.service.impl.UserServiceImpl" />
+	<bean id="simpleService" class="com.czy.dubbox.service.impl.SimpleServiceImpl" />
 	-->
 	
 	
