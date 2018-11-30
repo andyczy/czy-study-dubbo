@@ -1,6 +1,7 @@
 package com.czy.dubbo.hello.consumer;
 
 import com.czy.dubbo.hello.provider.HelloService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
@@ -15,6 +16,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class HelloConsumerTest {
 
+
+
+
     public static void main(String[] args) throws Exception {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"hello-Consumer.xml"});
         context.start();
@@ -23,6 +27,7 @@ public class HelloConsumerTest {
         HelloService helloService = (HelloService) context.getBean("HelloService");
         // 执行远程方法
         String hello = helloService.sayHello("ChenZhengYou!");
+
         // 显示调用结果
         System.out.println(hello);
 

@@ -1,6 +1,7 @@
 package com.czy.dubbo.hello.provider.impl;
 
 import com.czy.dubbo.hello.provider.HelloService;
+import org.springframework.stereotype.Service;
 
 
 /**
@@ -12,8 +13,10 @@ import com.czy.dubbo.hello.provider.HelloService;
  * @URL地址
  * @进度描述
  */
+@Service
 public class HelloServiceImpl implements HelloService {
 
+    @Override
     public String sayHello(String name) {
         return "Hello " + name;
     }

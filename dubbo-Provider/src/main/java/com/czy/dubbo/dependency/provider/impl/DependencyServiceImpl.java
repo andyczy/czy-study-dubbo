@@ -21,9 +21,11 @@ import java.io.Serializable;
 public class DependencyServiceImpl implements DependencyService,Serializable {
 
 	//注入SampleService
+
 	@Autowired
 	private HelloService helloService;
-		
+
+	@Override
 	public String dependency(String str) throws Exception {
 		//这里、我们可能需要调用SampleService，也可能不需要...
 		System.out.println(helloService.sayHello("str"));

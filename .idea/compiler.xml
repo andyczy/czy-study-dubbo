@@ -9,8 +9,6 @@
         <module name="dubbo-Config" />
         <module name="dubbo-Consumer" />
         <module name="dubbo-Provider" />
-        <module name="dubbox-Consumer" />
-        <module name="dubbox-Provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
