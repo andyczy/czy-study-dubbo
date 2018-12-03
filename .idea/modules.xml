@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-Config/dubbo-Config.iml" filepath="$PROJECT_DIR$/dubbo-Config/dubbo-Config.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" filepath="$PROJECT_DIR$/dubbo-Consumer/dubbo-Consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" filepath="$PROJECT_DIR$/dubbo-Provider/dubbo-Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-dubbo-api/springBoot-dubbo-api.iml" filepath="$PROJECT_DIR$/springBoot-dubbo-api/springBoot-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-dubbo-consumer/springBoot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springBoot-dubbo-consumer/springBoot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-dubbo-provider/springBoot-dubbo-provider.iml" filepath="$PROJECT_DIR$/springBoot-dubbo-provider/springBoot-dubbo-provider.iml" />
     </modules>
   </component>
 </project>

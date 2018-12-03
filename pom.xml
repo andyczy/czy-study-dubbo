@@ -8,12 +8,23 @@
     <artifactId>dubbo</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+
+    <parent>
+        <artifactId>dubbo-spring-boot-parent</artifactId>
+        <groupId>com.alibaba.boot</groupId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+
+
     <modules>
         <module>dubbo-Provider</module>
         <module>dubbo-Consumer</module>
         <module>dubbo-Config</module>
+        <module>springBoot-dubbo-api</module>
+        <module>springBoot-dubbo-provider</module>
+        <module>springBoot-dubbo-consumer</module>
     </modules>
-
 
 
     <properties>
@@ -81,6 +92,30 @@
             <version>3.11.0.GA</version>
         </dependency>
 
+
+
+        <!-- Spring Boot dependencies -->
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+        </dependency>
+
+
     </dependencies>
 
 
@@ -108,6 +143,7 @@
                     <port>8091</port>
                     <path>/</path>
                 </configuration>
+                <version>2.2</version>
             </plugin>
 
 

@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-Consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-Provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBoot-dubbo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBoot-dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springBoot-dubbo-provider" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
